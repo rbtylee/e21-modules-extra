@@ -34,7 +34,7 @@ EAPI void *e_modapi_init(E_Module *m);
 EAPI int e_modapi_shutdown(E_Module *m);
 EAPI int e_modapi_save(E_Module *m);
 
-E_Config_Dialog *e_int_config_screenshot_module(E_Container *con, const char *params);
+E_Config_Dialog *e_int_config_screenshot_module(Evas_Object *parent, const char *params);
 
 extern Config *ss_cfg;
 extern E_Module *ss_mod;
