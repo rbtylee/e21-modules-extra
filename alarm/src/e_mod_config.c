@@ -48,7 +48,7 @@ alarm_config_module(void)
    v->advanced.create_widgets = _advanced_create_widgets;
 
    snprintf(buf, sizeof(buf), "%s/e-module-alarm.edj", e_module_dir_get(alarm_config->module));
-   cfd = e_config_dialog_new(e_container_current_get(e_manager_current_get()),
+   cfd = e_config_dialog_new(NULL,
 			     D_("Alarm Configuration"), "Alarm", "_e_modules_alarm_config_dialog", buf, 0, v, NULL);
    alarm_config->config_dialog = cfd;
 }
@@ -192,7 +192,7 @@ _basic_create_widgets(E_Config_Dialog *cfd, Evas *evas, E_Config_Dialog_Data *cf
 {
    Evas_Object *o;
    
-   o = e_widget_table_add(evas, 0);
+   o = e_widget_table_add(e_win_evas_win_get(evas), 0);
 
    _common_create_widgets(cfd, evas, cfdata, o);
 
@@ -215,7 +215,7 @@ _advanced_create_widgets(E_Config_Dialog *cfd, Evas *evas, E_Config_Dialog_Data 
 {
    Evas_Object *o, *of, *ob;
 
-   o = e_widget_table_add(evas, 0);
+   o = e_widget_table_add(e_win_evas_win_get(evas), 0);
 
    _common_create_widgets(cfd, evas, cfdata, o);
 
@@ -246,7 +246,7 @@ _advanced_create_widgets(E_Config_Dialog *cfd, Evas *evas, E_Config_Dialog_Data 
    ob = e_widget_check_add(evas, D_("Run program"), &(cfdata->alarms_run_program_default));
    e_widget_frametable_object_append(of, ob, 0, 1, 1, 1, 1, 1, 1, 1);
 
-   ob = e_widget_entry_add(evas, &(cfdata->alarms_program_default), NULL, NULL, NULL);
+   ob = e_widget_entry_add(cfd->dia->win, &(cfdata->alarms_program_default), NULL, NULL, NULL);
    e_widget_size_min_set(ob, 80, 25);
    e_widget_frametable_object_append(of, ob, 0, 2, 1, 1, 1, 1, 1, 1);
 

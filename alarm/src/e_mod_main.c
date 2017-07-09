@@ -570,6 +570,7 @@ alarm_details_change(void)
 static int
 _alarm_check_date(Alarm *al, int strict)
 {
+	printf("Check Date\n");
    switch(al->sched.type)
      {
      case ALARM_SCHED_DAY:
@@ -648,10 +649,10 @@ _alarm_snooze(Alarm *al)
    if (al->snooze.dia)
      return;
 
-   dia = e_dialog_new(e_container_current_get(e_manager_current_get()), "Alarm", "_e_modules_alarm_snooze_dialog");
+   dia = e_dialog_new(NULL, "Alarm", "_e_modules_alarm_snooze_dialog");
    if (!dia)
      return;
-   evas = e_win_evas_get(dia->win);
+   evas = evas_object_evas_get(dia->win);
 
    snprintf(buf, sizeof(buf), D_("Snooze %s"), al->name);
    e_dialog_title_set(dia, buf);
@@ -671,7 +672,7 @@ _alarm_snooze(Alarm *al)
    e_dialog_button_add(dia, D_("Close"), NULL, _alarm_cb_dialog_snooze_cancel, al);
 
    al->snooze.dia = dia;
-   e_win_centered_set(dia->win, 1);
+   elm_win_center(dia->win, EINA_TRUE, EINA_TRUE);
    e_dialog_show(dia);
 }
 
@@ -875,7 +876,7 @@ _button_cb_mouse_down(void *data, Evas *e, Evas_Object *obj, void *event_info)
 	e_gadcon_canvas_zone_geometry_get(inst->gcc->gadcon,
 					  &cx, &cy, &cw, &ch);
 	e_menu_activate_mouse(m,
-			      e_util_zone_current_get(e_manager_current_get()),
+			      e_zone_current_get(),
 			      cx + ev->output.x, cy + ev->output.y, 1, 1,
 			      E_MENU_POP_DIRECTION_DOWN, ev->timestamp);
 	evas_event_feed_mouse_up(inst->gcc->gadcon->evas, ev->button,
@@ -1113,7 +1114,7 @@ e_modapi_init(E_Module *m)
      }
 
    //FIXME not sure about that, maybe must use edje directly to find the part
-   if (!e_theme_category_find(THEME_IN_E))
+   if (1) //!e_theme_category_find(THEME_IN_E))
      {
         char buf[512];
 
