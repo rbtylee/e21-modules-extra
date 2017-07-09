@@ -109,7 +109,7 @@ _basic_create_widgets(E_Config_Dialog *cfd, Evas *evas,
    of = e_widget_frametable_add(evas, D_("Weather.com Forecasts Code"), 0);
    ob = e_widget_label_add(evas, D_("Forecasts Code/US Zip Code"));
    e_widget_frametable_object_append(of, ob, 0, 0, 1, 1, 1, 0, 1, 0);
-   ob = e_widget_entry_add(evas, &cfdata->code, NULL, NULL, NULL);
+   ob = e_widget_entry_add(cfd->dia->win, &cfdata->code, NULL, NULL, NULL);
    e_widget_size_min_set(ob, 100, 20);
    e_widget_frametable_object_append(of, ob, 1, 0, 1, 1, 1, 0, 1, 0);
    ob = e_widget_label_add(evas, D_("To find the code for your area, go to:"));
