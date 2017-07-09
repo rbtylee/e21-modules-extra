@@ -421,7 +421,6 @@ static void
 _cb_menu_cfg(void *data, E_Menu *menu, E_Menu_Item *mi)
 {
    Instance *inst = NULL;
-   Evas_Object *parent;
 
    if (!(inst = data)) return;
 
@@ -434,8 +433,7 @@ _cb_menu_cfg(void *data, E_Menu *menu, E_Menu_Item *mi)
         edje_object_part_text_set(inst->o_base, "e.text.counter", "");
      }
 
-   parent = e_zone_current_get();
-   e_int_config_screenshot_module(parent, NULL);
+   e_int_config_screenshot_module(NULL, NULL);
 }
 
 static void 
