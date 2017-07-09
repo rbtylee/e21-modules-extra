@@ -1,0 +1,138 @@
+# Turkish translation for enlightenment
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the enlightenment package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enlightenment\n"
+"Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
+"POT-Creation-Date: 2013-08-24 11:50+0200\n"
+"PO-Revision-Date: 2013-09-05 08:00+0000\n"
+"Last-Translator: Ali E.İMREK <alierkanimrek@gmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-09-06 05:28+0000\n"
+"X-Generator: Launchpad (build 16760)\n"
+"Language: tr\n"
+
+#: src/e_mod_config.c:42
+msgid "Forecasts Settings"
+msgstr "Hava Tahmini Ayarları"
+
+#: src/e_mod_config.c:90
+msgid "Display Settings"
+msgstr "Görünüm Ayarları"
+
+#: src/e_mod_config.c:91
+msgid "Poll Time"
+msgstr "Denetleme Zamanı"
+
+#: src/e_mod_config.c:94
+#, c-format
+msgid "%2.0f minutes"
+msgstr "%2.0f dakika"
+
+#: src/e_mod_config.c:97
+msgid "Show Description"
+msgstr "Tanımlamayı Göster"
+
+#: src/e_mod_config.c:99
+msgid "Popup on mouse over"
+msgstr "Fare üzerindeyken göster"
+
+#: src/e_mod_config.c:103
+msgid "Unit Settings"
+msgstr "Birim Ayarları"
+
+#: src/e_mod_config.c:105
+msgid "Celsius"
+msgstr "Santigrat"
+
+#: src/e_mod_config.c:107
+msgid "Fahrenheit"
+msgstr "Fahrenhayt"
+
+#: src/e_mod_config.c:111
+msgid "Weather.com Forecasts Code"
+msgstr "Weather.com Hava Tahmini Kodu"
+
+#: src/e_mod_config.c:112
+msgid "Forecasts Code/US Zip Code"
+msgstr "Hava Tahmini Kodu/US Zip Kodu"
+
+#: src/e_mod_config.c:117
+msgid "To find the code for your area, go to:"
+msgstr "Bölgenizin kodunu bulmak için gidin:"
+
+#: src/e_mod_config.c:119
+#, c-format
+msgid "%s, find your area, and look at the URL"
+msgstr "%s, bölgenizi bulur, adrese bakın"
+
+#: src/e_mod_main.c:257
+msgid "Forecasts"
+msgstr "Hava Tahminleri"
+
+#: src/e_mod_main.c:299
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: src/e_mod_main.c:998
+#, c-format
+msgid "%s: Current Conditions"
+msgstr "%s: Şimdiki durum"
+
+#: src/e_mod_main.c:1014
+msgid "Wind Chill"
+msgstr "Rüzgarın soğutma etkisi"
+
+#: src/e_mod_main.c:1020
+msgid "Wind Speed"
+msgstr "Rüzgar Hızı"
+
+#: src/e_mod_main.c:1026
+msgid "Humidity"
+msgstr "Nem oranı"
+
+#: src/e_mod_main.c:1032
+msgid "Visibility"
+msgstr "Görüş mesafesi"
+
+#: src/e_mod_main.c:1038
+msgid "Pressure"
+msgstr "Basınç"
+
+#: src/e_mod_main.c:1045
+msgid "Rising"
+msgstr "Yüksek"
+
+#: src/e_mod_main.c:1047
+msgid "Falling"
+msgstr "Düşük"
+
+#: src/e_mod_main.c:1049
+msgid "Steady"
+msgstr "İstikrarlı"
+
+#: src/e_mod_main.c:1053
+msgid "Sunrise / Sunset"
+msgstr "Gün doğumu / Gün batımı"
+
+#: src/e_mod_main.c:1071
+msgid "Today"
+msgstr "Bugün"
+
+#: src/e_mod_main.c:1073
+msgid "Tomorrow"
+msgstr "Yarın"
+
+#: src/e_mod_main.c:1081
+msgid "High"
+msgstr "Yüksek"
+
+#: src/e_mod_main.c:1092
+msgid "Low"
+msgstr "Alçak"

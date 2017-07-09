@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marc Furtià  i Puig\\\n"
+"Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
+"POT-Creation-Date: 2013-08-24 11:50+0200\n"
+"PO-Revision-Date: 2014-05-26 21:22+0000\n"
+"Last-Translator: joancoll <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-05-27 05:40+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+"Language: ca\n"
+"X-Poedit-Bookmarks: -1,-1,1139,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: src/e_mod_config.c:42
+msgid "Forecasts Settings"
+msgstr "Configuració previsions"
+
+#: src/e_mod_config.c:90
+msgid "Display Settings"
+msgstr "Mostra configuració"
+
+#: src/e_mod_config.c:91
+msgid "Poll Time"
+msgstr "Temps d'actualització"
+
+#: src/e_mod_config.c:94
+#, c-format
+msgid "%2.0f minutes"
+msgstr "%2.0f minuts"
+
+#: src/e_mod_config.c:97
+msgid "Show Description"
+msgstr "Mostra descripció"
+
+#: src/e_mod_config.c:99
+msgid "Popup on mouse over"
+msgstr "Finestra emergent al passar amb ratolí"
+
+#: src/e_mod_config.c:103
+msgid "Unit Settings"
+msgstr "Configuració unitats"
+
+#: src/e_mod_config.c:105
+msgid "Celsius"
+msgstr "Celsius"
+
+#: src/e_mod_config.c:107
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
+
+#: src/e_mod_config.c:111
+msgid "Weather.com Forecasts Code"
+msgstr "Codi previsió Weather.com"
+
+#: src/e_mod_config.c:112
+msgid "Forecasts Code/US Zip Code"
+msgstr "Codi/US Zip previsió"
+
+#: src/e_mod_config.c:117
+msgid "To find the code for your area, go to:"
+msgstr "Per trobar el codi de la seva àrea, vagi a:"
+
+#: src/e_mod_config.c:119
+#, c-format
+msgid "%s, find your area, and look at the URL"
+msgstr "%s, trobi la seva àrea, i miri la URL"
+
+#: src/e_mod_main.c:257
+msgid "Forecasts"
+msgstr "Previsions"
+
+#: src/e_mod_main.c:299
+msgid "Settings"
+msgstr "Configuració"
+
+#: src/e_mod_main.c:998
+#, c-format
+msgid "%s: Current Conditions"
+msgstr "%s: Condicions actuals"
+
+#: src/e_mod_main.c:1014
+msgid "Wind Chill"
+msgstr "Vent gelat"
+
+#: src/e_mod_main.c:1020
+msgid "Wind Speed"
+msgstr "Velocitat del vent"
+
+#: src/e_mod_main.c:1026
+msgid "Humidity"
+msgstr "Humitat"
+
+#: src/e_mod_main.c:1032
+msgid "Visibility"
+msgstr "Visibilitat"
+
+#: src/e_mod_main.c:1038
+msgid "Pressure"
+msgstr "Pressió"
+
+#: src/e_mod_main.c:1045
+msgid "Rising"
+msgstr "Pujant"
+
+#: src/e_mod_main.c:1047
+msgid "Falling"
+msgstr "Baixant"
+
+#: src/e_mod_main.c:1049
+msgid "Steady"
+msgstr "Estable"
+
+#: src/e_mod_main.c:1053
+msgid "Sunrise / Sunset"
+msgstr "Sortida del sol / Posta del sol"
+
+#: src/e_mod_main.c:1071
+msgid "Today"
+msgstr "Avui"
+
+#: src/e_mod_main.c:1073
+msgid "Tomorrow"
+msgstr "Demà"
+
+#: src/e_mod_main.c:1081
+msgid "High"
+msgstr "Màxima"
+
+#: src/e_mod_main.c:1092
+msgid "Low"
+msgstr "Mínima"

@@ -1,0 +1,138 @@
+#
+# Саша Петровић <salepetronije@gmail.com>, 2012, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: trunk\n"
+"Report-Msgid-Bugs-To: $MSGID_BUGS_ADDRESS\n"
+"POT-Creation-Date: 2013-08-24 11:50+0200\n"
+"PO-Revision-Date: 2015-01-31 15:02+0100\n"
+"Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
+"Language-Team: српски <xfce4@xfce4.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-08-25 05:02+0000\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Language: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/e_mod_config.c:42
+msgid "Forecasts Settings"
+msgstr "Поставке временских прилика"
+
+#: src/e_mod_config.c:90
+msgid "Display Settings"
+msgstr "Поставке приказа"
+
+#: src/e_mod_config.c:91
+msgid "Poll Time"
+msgstr "Време добављања"
+
+#: src/e_mod_config.c:94
+#, c-format
+msgid "%2.0f minutes"
+msgstr "%2.0f минута"
+
+#: src/e_mod_config.c:97
+msgid "Show Description"
+msgstr "Приказуј описе"
+
+#: src/e_mod_config.c:99
+msgid "Popup on mouse over"
+msgstr "Искочи на надношење мишем"
+
+#: src/e_mod_config.c:103
+msgid "Unit Settings"
+msgstr "Подешавања јединице"
+
+#: src/e_mod_config.c:105
+msgid "Celsius"
+msgstr "Целзијус"
+
+#: src/e_mod_config.c:107
+msgid "Fahrenheit"
+msgstr "Фаренхајт"
+
+#: src/e_mod_config.c:111
+msgid "Weather.com Forecasts Code"
+msgstr "Шифра за предвиђање временских прилика Weather.com"
+
+#: src/e_mod_config.c:112
+msgid "Forecasts Code/US Zip Code"
+msgstr "Шифра за прогнозу/УС зип"
+
+#: src/e_mod_config.c:117
+msgid "To find the code for your area, go to:"
+msgstr "Да би сазнали шифру своје области посетите:"
+
+#: src/e_mod_config.c:119
+#, c-format
+msgid "%s, find your area, and look at the URL"
+msgstr "%s, пронађите своју област и погледајте УРЛ адресу"
+
+#: src/e_mod_main.c:257
+msgid "Forecasts"
+msgstr "Временске прилике"
+
+#: src/e_mod_main.c:299
+msgid "Settings"
+msgstr "Поставке"
+
+#: src/e_mod_main.c:998
+#, c-format
+msgid "%s: Current Conditions"
+msgstr "%s: Тренутни услови"
+
+#: src/e_mod_main.c:1014
+msgid "Wind Chill"
+msgstr "Расхладивост ветра"
+
+#: src/e_mod_main.c:1020
+msgid "Wind Speed"
+msgstr "Брзина ветра"
+
+#: src/e_mod_main.c:1026
+msgid "Humidity"
+msgstr "Влажност"
+
+#: src/e_mod_main.c:1032
+msgid "Visibility"
+msgstr "Видљивост"
+
+#: src/e_mod_main.c:1038
+msgid "Pressure"
+msgstr "Притисак"
+
+#: src/e_mod_main.c:1045
+msgid "Rising"
+msgstr "Излазак"
+
+#: src/e_mod_main.c:1047
+msgid "Falling"
+msgstr "Залазак"
+
+#: src/e_mod_main.c:1049
+msgid "Steady"
+msgstr "Мирно"
+
+#: src/e_mod_main.c:1053
+msgid "Sunrise / Sunset"
+msgstr "Излазак и залазак сунца"
+
+#: src/e_mod_main.c:1071
+msgid "Today"
+msgstr "Данас"
+
+#: src/e_mod_main.c:1073
+msgid "Tomorrow"
+msgstr "Сутра"
+
+#: src/e_mod_main.c:1081
+msgid "High"
+msgstr "Високо"
+
+#: src/e_mod_main.c:1092
+msgid "Low"
+msgstr "Ниско"
