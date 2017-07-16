@@ -138,12 +138,14 @@ _set_history_path(char *path)
 {
    EINA_SAFETY_ON_NULL_RETURN_VAL(path, EINA_FALSE);
 
+   char temp_str[PATH_MAX];
    Eina_Bool success = EINA_TRUE;
 
    if(_set_data_path(path)) {
        const size_t len = snprintf(NULL, 0, "%s%s/%s", path, CLIPBOARD_MOD_NAME, HISTORY_NAME) + 1;
        if (len <= PATH_MAX) {
-         sprintf(path,"%s%s/", path, CLIPBOARD_MOD_NAME);
+         strcpy(temp_str, path);
+         sprintf(path, "%s%s/", temp_str, CLIPBOARD_MOD_NAME);
          success = _mkpath_if_not_exists(path);
          strcat(path, HISTORY_NAME);
        }
